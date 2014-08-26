@@ -24,8 +24,8 @@ hi CursorIM			guifg=NONE		guibg=gray		gui=none
 " hi DiffDelete
 " hi DiffText
 hi ErrorMsg			guifg=White 	guibg=Red		gui=none
-" hi Folded
-" hi FoldColumn
+hi Folded		guifg=#000000	guibg=#606050	gui=none
+hi FoldColumn		guifg=#000001	guibg=#606050	gui=none
 " hi IncSearch
 " hi ModeMsg
 " hi MoreMsg
@@ -85,3 +85,6 @@ hi Error			guifg=White		guibg=Red		gui=none
 
 hi Todo				guifg=#900000	guibg=#909000	gui=none
 
+hi Pmenu		guifg=#b05a50	guibg=#080808 gui=none
+
+hi CursorLine guibg=#080808
